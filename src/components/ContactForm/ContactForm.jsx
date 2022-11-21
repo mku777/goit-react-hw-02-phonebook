@@ -36,7 +36,6 @@ class ContactForm extends Component {
         <label>
           Name
           <input
-            className={s.inputName}
             value={this.state.name}
             onChange={this.handleChange('name')}
             type="text"
@@ -49,7 +48,6 @@ class ContactForm extends Component {
         <label>
           Number
           <input
-            className={s.inputNumber}
             value={this.state.number}
             onChange={this.handleChange('number')}
             type="tel"
