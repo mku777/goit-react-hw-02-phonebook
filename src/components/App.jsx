@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import shortid from 'shortid';
+import { nanoid } from 'nanoid';
 import ContactList from './ContactList/ContactList';
 import ContactForm from './ContactForm/ContactForm';
 import Filter from './Filter/Filter';
@@ -30,7 +30,7 @@ class App extends Component {
       return;
     }
     const contact = {
-      id: shortid.generate(),
+      id: nanoid(),
       name: name,
       number: number,
     };

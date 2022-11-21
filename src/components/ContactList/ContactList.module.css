@@ -1,0 +1,13 @@
+.list {
+    width:30%;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lavenderblush;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    padding: 5px;
+}
